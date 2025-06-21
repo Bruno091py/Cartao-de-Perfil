@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+/*
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+Dark gray: hsl(0, 0%, 59%)
+
+font-family: "Kumbh Sans", sans-serif;
+
+Weights: 400, 700
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    width: 97vw;
+    height: 92vh;
+}
+
+main {
+    position: relative;
+    width: 97vw;
+    height: 90vh;
+     
+}
+
+main>section#conteudo {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+div#card {
+    background: hsl(185, 75%, 39%) url(images/bg-pattern-card.svg) no-repeat;
+    background-size: cover;
+    height: 130px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div#imagem {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    border: 5px solid white;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+section#conteudo>article#pessoal {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+section#conteudo>article#pessoal>article#cidade {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-top: 5px;
+}
+
+hr {
+    color: hsla(0, 0%, 87%, 0.624);
+    margin: 35px 0px 20px 0px;
+}
+
+section#conteudo>article#descricao {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+section#conteudo>article#descricao>div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.attribution {
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
