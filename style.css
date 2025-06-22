@@ -93,18 +93,19 @@ section#conteudo>article#descricao>div {
     flex-direction: column;
 }
 
-
-
-
-
-
-
-.attribution {
-    margin-top: 50px;
+div.attribution {
+    width: 350px;
+    margin: auto;
     font-size: 11px;
-    text-align: center;
+    margin-top: 40px;
+    
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+div.attribution a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+div.attribution a:hover {
+    text-decoration: underline;
 }
